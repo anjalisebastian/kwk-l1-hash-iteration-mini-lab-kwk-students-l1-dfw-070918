@@ -33,8 +33,7 @@ def iterate_through_hash
   }
   summer_olympics.each do |x,y|
     puts "The #{x} summer olympics took place in #{y}."
-    
-  
+  end
 end
 
 def iterate_through_keys
