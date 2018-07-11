@@ -18,6 +18,7 @@ def add_a_key_value_pair
     :London =>"2012"
   }
   summer_olympics[:Atlanta]="1996"
+  summer_olympics
 end
 
 def iterate_through_hash
