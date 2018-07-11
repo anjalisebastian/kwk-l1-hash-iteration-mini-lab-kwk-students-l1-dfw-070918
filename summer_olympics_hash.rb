@@ -33,7 +33,6 @@ def iterate_through_hash
   summer_olympics[:Atlanta]="1996"
   summer_olympics.each do |x,y|
     puts "The #{x} summer olympics took place in #{y}."
-  end
 end
 
 def iterate_through_keys
@@ -50,5 +49,4 @@ def iterate_through_keys
     upcased_cities = x.upcase
     puts upcased_cities
   end
-end
 end
