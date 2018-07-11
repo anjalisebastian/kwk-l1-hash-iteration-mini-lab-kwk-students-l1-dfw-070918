@@ -47,7 +47,7 @@ def iterate_through_keys
     :London =>"2012"
   }
   summer_olympics[:Atlanta]="1996"
-  summer_olympics.each do_key do |x, y|
+  summer_olympics.each_key do |x, y|
     upcased_cities = x.upcase
     puts upcased_cities
   end
