@@ -8,7 +8,6 @@ def create_olympics_hash
     :London =>"2012"
   }
 end
-end
 
 def add_a_key_value_pair
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
@@ -20,7 +19,6 @@ def add_a_key_value_pair
   }
   summer_olympics[:Atlanta]="1996"
   summer_olympics
-end
 end
 
 def iterate_through_hash
@@ -35,7 +33,7 @@ def iterate_through_hash
   summer_olympics[:Atlanta]="1996"
   summer_olympics.each do |x,y|
     puts "The #{x} summer olympics took place in #{y}."
-end
+  end
 end
 
 def iterate_through_keys
