@@ -31,7 +31,7 @@ def iterate_through_hash
     :London =>"2012"
   }
   summer_olympics[:Atlanta]="1996"
-  summer_olympics
+  summer_olympics.each 
   
 end
 
